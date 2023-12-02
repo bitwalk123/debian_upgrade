@@ -1,6 +1,6 @@
 #!/bin/sh
 apt update
 apt dist-upgrade -y
-python update_info.py
+python3 update_info.py
 apt update
 apt dist-upgrade -y
